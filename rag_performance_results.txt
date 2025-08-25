@@ -1,0 +1,356 @@
+=== RAG Performance Test Results ===
+
+Configuration: chunk_500_overlap_100
+==================================================
+Average Topic Overlap: 0.783
+Average Source Accuracy: 1.000
+Average Relevance Score: 0.782
+Total Questions: 12
+Build Time: 5.4069983959198 seconds
+
+Configuration: chunk_1000_overlap_200
+==================================================
+Average Topic Overlap: 0.850
+Average Source Accuracy: 1.000
+Average Relevance Score: 0.778
+Total Questions: 12
+Build Time: 4.259186029434204 seconds
+
+Configuration: chunk_1000_overlap_500
+==================================================
+Average Topic Overlap: 0.900
+Average Source Accuracy: 1.000
+Average Relevance Score: 0.784
+Total Questions: 12
+Build Time: 3.228224754333496 seconds
+
+Configuration: chunk_1500_overlap_300
+==================================================
+Average Topic Overlap: 0.871
+Average Source Accuracy: 1.000
+Average Relevance Score: 0.773
+Total Questions: 12
+Build Time: 0.8112342357635498 seconds
+
+Configuration: chunk_2000_overlap_400
+==================================================
+Average Topic Overlap: 0.904
+Average Source Accuracy: 1.000
+Average Relevance Score: 0.770
+Total Questions: 12
+Build Time: 3.1490602493286133 seconds
+
+
+
+=== Detailed Results ===
+
+
+chunk_500_overlap_100:
+
+Question: Who is Alice?
+Category: character_identification
+Metrics: {'topic_overlap': 0.25, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7724556695533034, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What does Alice see when she falls down the rabbit hole?
+Category: plot_details
+Metrics: {'topic_overlap': 0.75, 'source_accuracy': 1.0, 'avg_relevance_score': 0.8264275399348282, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: Who does Alice meet at the tea party?
+Category: character_interaction
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7750880633686471, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What happens when Alice drinks from the bottle?
+Category: plot_details
+Metrics: {'topic_overlap': 0.6, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7899964714071128, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is the Transformer architecture?
+Category: architecture_overview
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7967922152120598, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How does multi-head attention work?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.8036512846568944, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is scaled dot-product attention?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.8337538282688303, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: Why do Transformers not use recurrence or convolution?
+Category: design_rationale
+Metrics: {'topic_overlap': 0.6, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7321331825025771, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What are the advantages of self-attention over recurrent layers?
+Category: comparison
+Metrics: {'topic_overlap': 0.6, 'source_accuracy': 1.0, 'avg_relevance_score': 0.8017506803205837, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How do positional encodings work in Transformers?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 0.6, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7786474061538448, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How does Alice use attention mechanisms?
+Category: cross_domain_invalid
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.734050484788186, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is the BLEU score for Alice in Wonderland?
+Category: cross_domain_invalid
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7401467313973473, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+chunk_1000_overlap_200:
+
+Question: Who is Alice?
+Category: character_identification
+Metrics: {'topic_overlap': 0.25, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7667216399847194, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What does Alice see when she falls down the rabbit hole?
+Category: plot_details
+Metrics: {'topic_overlap': 0.75, 'source_accuracy': 1.0, 'avg_relevance_score': 0.819255006816431, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: Who does Alice meet at the tea party?
+Category: character_interaction
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7743027200669195, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What happens when Alice drinks from the bottle?
+Category: plot_details
+Metrics: {'topic_overlap': 0.6, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7934204322088144, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is the Transformer architecture?
+Category: architecture_overview
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7721097061586911, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How does multi-head attention work?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.8063265181789104, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is scaled dot-product attention?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.8190597023107351, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: Why do Transformers not use recurrence or convolution?
+Category: design_rationale
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7294184766138678, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What are the advantages of self-attention over recurrent layers?
+Category: comparison
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.8053808344118775, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How do positional encodings work in Transformers?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 0.6, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7766517338008927, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How does Alice use attention mechanisms?
+Category: cross_domain_invalid
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.737682880520674, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is the BLEU score for Alice in Wonderland?
+Category: cross_domain_invalid
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7306365455199734, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+chunk_1000_overlap_500:
+
+Question: Who is Alice?
+Category: character_identification
+Metrics: {'topic_overlap': 0.25, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7656800438440454, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What does Alice see when she falls down the rabbit hole?
+Category: plot_details
+Metrics: {'topic_overlap': 0.75, 'source_accuracy': 1.0, 'avg_relevance_score': 0.8396566770391245, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: Who does Alice meet at the tea party?
+Category: character_interaction
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7755937412570809, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What happens when Alice drinks from the bottle?
+Category: plot_details
+Metrics: {'topic_overlap': 0.8, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7965741755157634, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is the Transformer architecture?
+Category: architecture_overview
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7769585475300355, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How does multi-head attention work?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.8087473674021498, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is scaled dot-product attention?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.8334355247321638, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: Why do Transformers not use recurrence or convolution?
+Category: design_rationale
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7401818116242579, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What are the advantages of self-attention over recurrent layers?
+Category: comparison
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.813072714456117, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How do positional encodings work in Transformers?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7777373927846724, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How does Alice use attention mechanisms?
+Category: cross_domain_invalid
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7332579484243126, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is the BLEU score for Alice in Wonderland?
+Category: cross_domain_invalid
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7436027216001596, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+chunk_1500_overlap_300:
+
+Question: Who is Alice?
+Category: character_identification
+Metrics: {'topic_overlap': 0.5, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7620233832672403, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What does Alice see when she falls down the rabbit hole?
+Category: plot_details
+Metrics: {'topic_overlap': 0.75, 'source_accuracy': 1.0, 'avg_relevance_score': 0.8279221233788224, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: Who does Alice meet at the tea party?
+Category: character_interaction
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7683765149180753, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What happens when Alice drinks from the bottle?
+Category: plot_details
+Metrics: {'topic_overlap': 0.6, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7839293131478987, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is the Transformer architecture?
+Category: architecture_overview
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7655485300723103, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How does multi-head attention work?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.793538220814988, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is scaled dot-product attention?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.840342787955802, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: Why do Transformers not use recurrence or convolution?
+Category: design_rationale
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7371679951810219, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What are the advantages of self-attention over recurrent layers?
+Category: comparison
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7819164195948867, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How do positional encodings work in Transformers?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 0.6, 'source_accuracy': 1.0, 'avg_relevance_score': 0.76374897738332, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How does Alice use attention mechanisms?
+Category: cross_domain_invalid
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7250143198835213, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is the BLEU score for Alice in Wonderland?
+Category: cross_domain_invalid
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.724070880226363, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+chunk_2000_overlap_400:
+
+Question: Who is Alice?
+Category: character_identification
+Metrics: {'topic_overlap': 0.5, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7549772942066134, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What does Alice see when she falls down the rabbit hole?
+Category: plot_details
+Metrics: {'topic_overlap': 0.75, 'source_accuracy': 1.0, 'avg_relevance_score': 0.8229458379506664, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: Who does Alice meet at the tea party?
+Category: character_interaction
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7732450659769629, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What happens when Alice drinks from the bottle?
+Category: plot_details
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7901182336524607, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is the Transformer architecture?
+Category: architecture_overview
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7747453412412844, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How does multi-head attention work?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.8080199704366512, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is scaled dot-product attention?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7951598520275974, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: Why do Transformers not use recurrence or convolution?
+Category: design_rationale
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7384398983792968, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What are the advantages of self-attention over recurrent layers?
+Category: comparison
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7810429646933978, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How do positional encodings work in Transformers?
+Category: technical_mechanism
+Metrics: {'topic_overlap': 0.6, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7584676042377586, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: How does Alice use attention mechanisms?
+Category: cross_domain_invalid
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7191132202074403, 'num_chunks_retrieved': 3}
+--------------------------------------------------
+
+Question: What is the BLEU score for Alice in Wonderland?
+Category: cross_domain_invalid
+Metrics: {'topic_overlap': 1.0, 'source_accuracy': 1.0, 'avg_relevance_score': 0.7258403208451125, 'num_chunks_retrieved': 3}
+--------------------------------------------------
